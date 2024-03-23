@@ -1,0 +1,16 @@
+[package]
+name = "rsck"
+version = "0.1.0"
+authors = ["L2ncE <llance_24@foxmail.com>"]
+edition = "2021"
+default-run = "brainfuck_interpreter"
+
+[[bin]]
+name = "brainfuck_interpreter"
+path = "src/main_interpreter.rs"
+
+[[bin]]
+name = "brainfuck_ir"
+path = "src/main_ir.rs"
+
+[dependencies]
